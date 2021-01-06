@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  users.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - UserRepository__ConnectionString=mongodb://nosqldata:27017 # Override User Repository ConntectionString for Docker environment
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+
+  nosqldata:
+    ports:
+      - "27017:27017" # Expose MongoDB to host machine
+    volumes:
+      - nosqldata:/data/db
+
+volumes:
+  nosqldata:
+    external: false

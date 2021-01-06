@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Users.API</name>
+    </assembly>
+    <members>
+        <member name="M:Users.API.Controllers.RootController.GetRoot">
+            <summary>
+            API root.
+            </summary>
+            <returns>HATEOAS links for top resources.</returns>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.GetUsers">
+            <summary>
+            Gets the user resources.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.GetUser(System.String)">
+            <summary>
+            Gets the user with the specified identifier.
+            </summary>
+            <param name="id">The user identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.CreateUser(Users.Models.DTOs.UserCreateDto)">
+            <summary>
+            Creates a new user.
+            </summary>
+            <param name="userCreateDto">The user creation model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.UpdateUser(System.String,Users.Models.DTOs.UserCreateDto)">
+            <summary>
+            Updates the user with the specified identifier.
+            </summary>
+            <param name="id">The user identifier.</param>
+            <param name="userCreateDto">The user update model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.PatchUser(System.String,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Users.Models.DTOs.UserUpdateDto})">
+            <summary>
+            Patches the user with the specified identifier.
+            </summary>
+            <param name="id">The user identifier.</param>
+            <param name="userPatch">The user patch model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.DeleteUser(System.String)">
+            <summary>
+            Deletes the user with the specified identifier.
+            </summary>
+            <param name="id">The user identifier.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

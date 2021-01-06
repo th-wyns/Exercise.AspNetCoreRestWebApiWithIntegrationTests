@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Users.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Users.Models.DTOs.AddressDto">
+            <summary>
+            Address representation.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.AddressDto.Street">
+            <summary>
+            The street of the address.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.AddressDto.Suite">
+            <summary>
+            The suite of the address.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.AddressDto.City">
+            <summary>
+            The city of the address.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.AddressDto.Zipcode">
+            <summary>
+            The zip code of the address.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.AddressDto.Geo">
+            <summary>
+            The GPS coordinates of the address.
+            </summary>
+        </member>
+        <member name="T:Users.Models.DTOs.CompanyDto">
+            <summary>
+            Representation model for company.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.CompanyDto.Name">
+            <summary>
+            The name of the company
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.CompanyDto.CatchPhrase">
+            <summary>
+            The catch phrase of the company
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.CompanyDto.Bs">
+            <summary>
+            The BS of the company.
+            </summary>
+        </member>
+        <member name="T:Users.Models.DTOs.GeoCoordinateDto">
+            <summary>
+            GPS coordinate representation.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.GeoCoordinateDto.Lat">
+            <summary>
+            The latitude coordinate.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.GeoCoordinateDto.Lng">
+            <summary>
+            The longitude coordinate.
+            </summary>
+        </member>
+        <member name="T:Users.Models.DTOs.LinkDto">
+            <summary>
+            HATEOAS link representation.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.LinkDto.Href">
+            <summary>
+            The URI to the resource.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.LinkDto.Rel">
+            <summary>
+            The action name.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.LinkDto.Method">
+            <summary>
+            The HTTP verb to use.
+            </summary>
+        </member>
+        <member name="T:Users.Models.DTOs.UserCreateDto">
+            <summary>
+            User resource creation model.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserCreateDto.Name">
+            <summary>
+            Sets the user's name.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserCreateDto.UserName">
+            <summary>
+            Sets the user's username.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserCreateDto.Email">
+            <summary>
+            Sets the user's email address.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserCreateDto.Address">
+            <summary>
+            Sets the user's address.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserCreateDto.Phone">
+            <summary>
+            Sets the user's phone number.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserCreateDto.Website">
+            <summary>
+            Sets the user's website.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserCreateDto.Company">
+            <summary>
+            Sets the user's company.
+            </summary>
+        </member>
+        <member name="T:Users.Models.DTOs.UserDto">
+            <summary>
+            The User resource.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserDto.Id">
+            <summary>
+            The identifier of the user.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserDto.Name">
+            <summary>
+            The name of the user.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserDto.UserName">
+            <summary>
+            The username of the user.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserDto.Email">
+            <summary>
+            The email address of the user.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserDto.Address">
+            <summary>
+            The address of the user.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserDto.Phone">
+            <summary>
+            The phone of the user.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserDto.Website">
+            <summary>
+            The website of the user.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UserDto.Company">
+            <summary>
+            The company of the user.
+            </summary>
+        </member>
+        <member name="T:Users.Models.DTOs.UsersWithLinksDto">
+            <summary>
+            User resources with HATEOAS links.
+            </summary>
+            <seealso cref="T:Users.Models.DTOs.UserDto" />
+        </member>
+        <member name="P:Users.Models.DTOs.UsersWithLinksDto.Value">
+            <summary>
+            The users.
+            </summary>
+        </member>
+        <member name="P:Users.Models.DTOs.UsersWithLinksDto.Links">
+            <summary>
+            The HATEOAS links.
+            </summary>
+        </member>
+        <member name="T:Users.Models.DTOs.UserWithLinksDto">
+            <summary>
+            User resource with HATEOAS links.
+            </summary>
+            <seealso cref="T:Users.Models.DTOs.UserDto" />
+        </member>
+        <member name="P:Users.Models.DTOs.UserWithLinksDto.Links">
+            <summary>
+            The HATEOAS links.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.API", "src\Users.API\Users.API.csproj", "{7401CDD6-BB92-4F7B-8A37-A0ED6A8330B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.Core", "src\Users.Core\Users.Core.csproj", "{7E6EA06F-E3A4-41C6-8B1E-C5341CE01296}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.Infrastructure.MongoDB", "src\Users.Infrastructure.MongoDB\Users.Infrastructure.MongoDB.csproj", "{9B54213C-5A62-4E35-BF55-0045CEC20A02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E16DB704-8B90-42BB-9EE9-85AAA3F49EBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F3F46011-F4DB-43CE-B4AB-5220F4E95B8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.API.IntegrationTests", "tests\Users.API.IntegrationTests\Users.API.IntegrationTests.csproj", "{11179114-294D-443A-B5C3-B228145A0DA0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BEBED3D6-4171-4CED-BCF2-886A798217F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7401CDD6-BB92-4F7B-8A37-A0ED6A8330B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7401CDD6-BB92-4F7B-8A37-A0ED6A8330B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7401CDD6-BB92-4F7B-8A37-A0ED6A8330B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7401CDD6-BB92-4F7B-8A37-A0ED6A8330B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6EA06F-E3A4-41C6-8B1E-C5341CE01296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6EA06F-E3A4-41C6-8B1E-C5341CE01296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6EA06F-E3A4-41C6-8B1E-C5341CE01296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6EA06F-E3A4-41C6-8B1E-C5341CE01296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B54213C-5A62-4E35-BF55-0045CEC20A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B54213C-5A62-4E35-BF55-0045CEC20A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B54213C-5A62-4E35-BF55-0045CEC20A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B54213C-5A62-4E35-BF55-0045CEC20A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11179114-294D-443A-B5C3-B228145A0DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11179114-294D-443A-B5C3-B228145A0DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11179114-294D-443A-B5C3-B228145A0DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11179114-294D-443A-B5C3-B228145A0DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBED3D6-4171-4CED-BCF2-886A798217F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBED3D6-4171-4CED-BCF2-886A798217F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBED3D6-4171-4CED-BCF2-886A798217F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBED3D6-4171-4CED-BCF2-886A798217F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7401CDD6-BB92-4F7B-8A37-A0ED6A8330B9} = {E16DB704-8B90-42BB-9EE9-85AAA3F49EBC}
+		{7E6EA06F-E3A4-41C6-8B1E-C5341CE01296} = {E16DB704-8B90-42BB-9EE9-85AAA3F49EBC}
+		{9B54213C-5A62-4E35-BF55-0045CEC20A02} = {E16DB704-8B90-42BB-9EE9-85AAA3F49EBC}
+		{11179114-294D-443A-B5C3-B228145A0DA0} = {F3F46011-F4DB-43CE-B4AB-5220F4E95B8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C39AFD6-DCC3-41F4-BA1D-0198132ED849}
+	EndGlobalSection
+EndGlobal
